@@ -1,0 +1,357 @@
+<html>
+<head> <title>myPortfolio</title>
+</head>
+<style>
+    .flex-container{
+
+        display:flex;
+        flex-direction: column;
+        
+    
+        background-color: rgb(221, 69, 102);
+
+
+    }
+
+    .flex-container>div{
+        background-color: aliceblue;
+        font-size: 20px;
+        margin: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding:30px;
+        text-align: center;
+       
+
+    }
+
+
+
+#heading{
+         color:aliceblue;
+         text-align: center;
+         background-color: rgb(221, 69, 102) ;
+    
+
+}
+.nav{
+    position: sticky;
+    top: 0;
+
+}
+
+nav{
+  border: none;
+  background-color: rgb(15, 12, 12);
+  height: 55px;
+  width: 100%;
+  
+}
+
+ li{
+    float: left;
+    
+    list-style: none;
+   
+    
+}
+
+li a {
+    font-size: 20px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: cyan;
+}
+.just{
+    text-align: justify;
+    
+}
+
+.img1{
+
+    width:400px;
+    height: 300px;
+    padding-right:30px;
+    float:left;
+}
+.img2{
+    width:250px;
+    height:200px;
+    margin-right: 30px;
+    margin-left: 20px;
+    
+    
+    
+}
+.img3{
+    width:250px;
+    height:200px;
+    margin-left: 80px;
+    margin-right: 20px;
+
+}
+.img4{ width:250px;
+    height:200px;
+    margin-left: 60px;
+    
+
+}
+.div2{
+    display:inline-block;
+   
+   
+}
+.div3{
+    display:inline-block;
+    padding-right:40px ;
+    
+    
+}
+.div4{ 
+    display:inline-block;
+    padding-left: 100px;
+    padding-right: 150px;
+
+}
+.div5{ 
+    display:block;
+    padding-left: 20px;
+    
+}
+.div6{
+    display:inline-block;
+    padding-right: 150px;
+}
+.div7{
+      display: inline-block;
+      padding: 30px;
+}
+
+h2:nth-child(1){
+    font-weight:bold;
+font-size:30px;
+ float:left;
+}
+
+.id1{
+    padding-left: 80px;
+}
+.id2{
+    padding-left: 80px;
+    font-style: italic;
+    font-size:15px;
+   
+}
+.id4{
+    display: inline-block;
+     padding-left:100px;
+     
+}
+
+ #id3{
+    font-size: 15px;
+
+ }
+.inp1{
+     width:70%;
+     height:45px;
+     padding: 20px;
+     background-color: rgb(232, 222, 222);
+     border: 1px solid transparent;
+     border-radius: 4px;
+}
+.inp2{   width:70%;
+     height:200px;
+     padding: 10px;
+     background-color: rgb(232, 222, 222);
+     border: 1px solid transparent;
+     border-radius: 4px;   
+
+}
+input:hover{
+        border: 3px solid red;
+        
+}
+
+@media only screen and (max-width:600px) {
+    body{ display:block;
+           text-align: center;
+        }
+    .img1,.img2,.img4{ width:100%;
+        height: 50%;
+
+    }
+    .img3,.img4{ width:80%;
+        height: 100%;
+        margin:5px 5px;
+    }
+    .id1,.id2{
+        padding-left: 20px;
+    }
+    .id4{
+        padding-left: 5px;
+        border-top: 2px solid black;
+    }
+    .div6{
+        padding-right: 20px;
+        border-bottom: 2px solid black;
+    }
+    
+     
+    
+    
+}
+ 
+</style>
+<script>
+
+
+</script>
+
+<body>
+<div class="nav">
+    <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="flex-container">
+<div id="heading">
+<h1> I am Abhishek Bora</h1>
+<p> web developer</p>
+</div>
+<div class="" id="about">
+   <h3> About me</h3><br>
+
+ <div >  <img class="img1" src="IMG-20190122-WA0002.jpg"> </div>
+   <div class="just"> My name is Abhishek Bora. I am basically from Assam but currently staying in Bangalore. I did my
+    graduation in Bsc (triple major) from St. joseph's college, Bengaluru. Currently i am learning full stack development
+    in Besant technologies, Bengaluru. My strength are I am self motivated, hard-workking and a disciplined person.
+    My short term goal is to get a job in a reputed company and my long term goal is to achieve a good position where I 
+    can build my career and help the organization as well.
+</div>
+ 
+  </div> <br><br>
+
+
+
+<div class="div2" id="project">
+
+<h3>Projects</h3>
+
+<div class="div2">
+<img class="img2" src="IMG20200307092634.jpg"><br>
+
+<p class="id1">Plant tissue culture</p>
+<p class="id2"> March 2020</p>
+</div>
+
+<div class="div7">
+<img class="img3"src="IMG-20220526-WA0003.jpg"> <br>
+<p class="id1" > Phytoremediation of Methylene blue</p>
+<p class="id2"> May 2022</p>
+</div>
+
+    <div class="div2">
+        <img class="img4"src="Screenshot (63).png"> <br>
+        <p class="id1"> Portfolio</p>
+        <p class="id2"> october 2022</p>
+    </div>
+</div>
+
+<div>
+    <h3>SKILLS</h3><br>
+    <p>Frontend trainee</p>
+    <p>(html, css, javascript)</p>
+
+</div>
+<div id="work">
+<h3>WORK</h3>
+<p>Not yet working</p>
+</div>
+
+<div class="div2" id="education">
+    <h3>Education</h3><br>
+    <div class="div6" id="Education">
+        <p><i>2016</i></p>
+    <b><p>10<sup>th</sup> Standard</p></b>
+    <p><i>Don Bosco High School</i></p>
+</div>
+
+<div class="div2">
+    <p><i>2018</i></p>
+    <b><p>12<sup>th</sup> Standard</p></b>
+    <p><i>Crescent Academy</i></p>
+</div>
+<div class="id4">
+    <p><i>2022</i></p>
+    <b><p>Bsc triple degree(Biotechnology, botany, chemistry) </p></b>
+    <p><i>St. Joseph's College(Autonomous)</i></p>
+</div>
+
+</div>
+
+<div >
+<h3>Language</h3><br>
+
+<div class="div7">
+<p><b>English</b></p>
+<P id="id3"><i>Full professional Proficiency</i></P>
+</div>
+<div class="div7">
+    <p><b>Hindi</b></p>
+    <P id="id3"><i>Full professional Proficiency</i></P>
+    </div>
+    <div class="div7">
+        <p><b>Assamese</b></p>
+        <P id="id3"><i>Native Proficiency</i></P>
+        </div>
+        <div class="div7">
+            <p><b>Bengali</b></p>
+            <P id="id3"><i>limited working Proficiency</i></P>
+            </div>
+            <div class="div7">
+                <p><b>German</b></p>
+                <P id="id3"><i>Elementary Proficiency</i></P>
+                </div>
+</div>
+
+<div>
+<h3>Contact Details</h3><br><br>
+<p> <b>phone no.-</b> +91 9731946337</p>
+<p> <b>Email id-</b> jeansuborah37@gmail.com</p>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+ 
+    
+  </div>
+</div>    
+
+
+
+
+
+</body>
+</html>
